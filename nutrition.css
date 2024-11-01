@@ -1,0 +1,84 @@
+nav {
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    padding-top: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+nav li {
+    display: inline;
+}
+
+nav a {
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 30px;
+}
+.meal-planning {
+    background: rgb(137, 131, 131);
+}
+.meal-planning h2{
+    padding-left: 40px;
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(28, 208, 82);
+}
+ul li,p{
+    font-size: large;
+    font-style: oblique;
+    color: black;
+    padding-left: 50px;
+}
+.meal-planning-img {
+    width: 100%;
+    height: auto;
+}
+.healthy-eating {
+    background: rgb(62, 60, 60);
+}
+.healthy-eating h1{
+    padding-left: 50px;
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(150, 182, 160);
+}
+.healthy-eating-img {
+    width: 100%;
+    height: auto;
+}
+.healthy-dishes {
+    background: rgb(61, 59, 59);
+}
+.healthy-dishes h2{
+    padding-left: 50px;
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(150, 182, 160);
+}
+.healthy-dishes-img {
+    width: 100%;
+    height: auto;
+}
+.pagination a {
+    margin: 0 5px;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
